@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #Form{
+            text-align: center;
+            background-color: black;
+            color: #ff0000;
+        }
+        #Contra{
+            text-align: right;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="Form">Formularios</h1>
+    <hr>
+    <hr>
+    <br>
+    <form action="ejemplo.php" method="get">
+        <p>Nombre <input type="text" name="Nombre" size="40" required>
+        </p>
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p>
+        <p>Sexo
+            <input type="radio" name="hm" value="h">Hombre
+            <input type="radio" name="hm" value="m">Mujer
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </p>
+        <p>
+            <b id="Contra">Contraseña</b>
+            <input type="password" required placeholder="Escriba su Contraseña">
+        </p>
+        <br>
+        <p>Nombre: <input type="text" name="Nombre"></p>
+
+        <p>Apellidos: <input type="text" name="Apellidos" size="40"> </p>
+        <p>Nacionalidad: <input type="text" name="Nacionalidad" size="17" maxlength="6" placeholder="Escriba su Nacionalidad"></p>
+        <input type="submit" value="Enviar">
+        <button type="submit">
+            <img src="" alt="imagen" width="32" > 
+            ENVIAR
+        </button>
+        <p>Enlaces
+            <a href="https://github.com/juanlima1/1EVAL_HTMLyCSS_AW_2smrc_JuanPabloLima/blob/main/html/tablas/tablas.html" target="_blank">tablas </a>
+            <a href="https://www.mclibre.org/consultar/htmlcss/html/html-formularios.html" target="_blank">IPHONE </a>
+        </p>
+    </form>
+    
+</body>
+</html>
