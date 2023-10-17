@@ -1,5 +1,5 @@
 body{
-    background-color: burlywood;
+    background-color:lightsalmon
 }
 
 
@@ -26,4 +26,9 @@ th{
 }
 .mora{
     border: violet 2px solid;
+}
+h1{
+    background-color: black;
+    color: red;
+    text-align: center;
 }
