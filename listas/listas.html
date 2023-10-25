@@ -10,6 +10,13 @@
         }
         ol{
             list-style: square;
+            list-style-position: inside;
+        }
+        .imagen{
+            list-style-image: url(/listas/imagenes/Pinguino.jpg);
+        }
+        .light{
+            background-color: lightblue;
         }
     </style>
 </head>
@@ -23,11 +30,27 @@
     </ul>
     <h2>Lista ordenada</h2>
     <OL>
-        <LI>PRUEBA</LI>
-        <LI>HOLAAA</LI>
-        <LI>ADIOS</LI>
-        <LI>HELLLO</LI>
-        <LI>JOAN</LI>
+        <LI class="light">PRUEBA</LI>
+        <LI class="light">HOLAAA</LI>
+        <LI class="light">ADIOS</LI>
+        <LI class="light">HELLLO</LI>
+        <LI class="light">JOAN</LI>
     </OL>
+
+    <h2>Anidamiento</h2>
+
+
+    <ul>
+        <li>CSS</li>
+        <li>HTML</li>
+        <OL class="imagen">
+            <LI>PRUEBA</LI>
+            <LI>HOLAAA</LI>
+            <LI>ADIOS</LI>
+            <LI>HELLLO</LI>
+            <LI>JOAN</LI>
+        </OL>
+        <li>JavaScript</li>
+    </ul>
 </body>
 </html>
