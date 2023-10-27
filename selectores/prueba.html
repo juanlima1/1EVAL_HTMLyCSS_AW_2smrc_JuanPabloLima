@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>La pseudo-clase :first-child (1). Pseudo-clases y pseudo-elementos. CSS. Páginas web HTML y hojas de estilo CSS. Bartolomé Sintes Marco. www.mclibre.org</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    div {
+      border: black 5px solid;
+      margin: 10px;
+      padding: 10px;
+    }
+
+    div :first-child {
+      color: red;
+    }
+    a:link {
+        color: yellow;
+    }
+    a:visited{
+        color: crimson;
+    }
+    a:hover{
+        background-color: black;
+        color: white;
+    }
+    p:hover{
+        background-color: red;
+        color: aqua;
+    }
+
+    input{
+        background-color: black;
+        color: white;
+    }
+    input:hover{
+        background-color: aqua;
+    }
+    input:active{
+        background-color: chocolate;
+        color: crimson;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <h1>PRUEBA</h1>
+    <p>Este es el primer párrafo &lt;p&gt; en una división que contiene tres párrafos.</p>
+
+    <p>Este es el segundo párrafo &lt;p&gt; en una división que contiene tres párrafos.</p>
+
+    <p>Este es el tercer párrafo &lt;p&gt; en una división que contiene tres párrafos.</p>
+  </div>
+
+  <a href="https://www.educa2.madrid.org/educamadrid/" target="_blank">Enlace</a>
+
+  <form action="procesar.php" method="get">
+    <input type="button" value="Pulsame">
+  </form>
+</body>
+</html>
