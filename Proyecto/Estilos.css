@@ -1,0 +1,21 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color:red;
+}
+a{
+    margin-right:10px ;
+}
+nav{
+    border: 2px solid red;
+    height: 30px;
+}
+
+main{
+    height: 50px;
+    background: orange;
+    position: absolute;
+
+}
+
