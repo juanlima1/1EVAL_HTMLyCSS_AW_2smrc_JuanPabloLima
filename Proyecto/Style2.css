@@ -9,12 +9,13 @@ body{
     justify-content: space-between;
     align-items: center;
     height: 100px;
-    padding: 10px;
+    padding: 10px 5%;
 }
 
+/* Imagen */
 
 .Imagen1 img{
-    border-radius: 70%;
+    border-radius: 75%;
     height: 87px;
     width: 90px;
     cursor: pointer;
@@ -24,56 +25,62 @@ body{
     transform: scale(1.2);
 }
 
+/*Fin-Imagen */
 
 
-/* .header nav ul li a:link{
-    color: black;
-} */
-
+/* Listas */
 
 .header nav ul li a:visited{
-    color: white;   
+    color: red;   
 }
 
 .header nav ul li a:hover{
     color: white;
-    transform: scale(1.2);
 }
 
-.Imagen1,nav,ul{
+.header nav ul li a{
+    color: wheat;
+    text-decoration: none;
+    transition: all 0.9s;
+}
+
+/* Fin-Listas */
+
+.header nav ul{
     list-style-type: none;
 }
 
 .header nav ul li{
     display: inline-block;
-    padding: 0px 32px;  
+    padding: 0px 33px ;
 }
 
-.header nav ul li a{
-    color: wheat ;
-    text-decoration: none;
+.header nav ul li:hover{
+    transform: scale(2);
 }
-
+/* Boton */
 
 .header .btn button{
-    color: #1b3039;
-    padding: 9px 25px;
-    background: color #eceff1;
+    color: rgb(185, 133, 35);
+    transition: all 0.4s;
+    background: wheat;
     border: none;
     border-radius: 50px;
     cursor: pointer;
-    transition: all 0,3s ease 0s;
+    transition: all 0.5s;
+
 }
 
-
-
-
-
-
-
-
-
-/* Comentario */
-h3{
+.header .btn button:hover{
+    background-color: gold;
     color: red;
+    transform: scale(1.1);
 }
+
+/* Fin-Boton */
+
+
+
+
+
+
