@@ -1,0 +1,70 @@
+body{
+    background: grey;
+    margin: 0px;
+}
+
+.header{
+    background: rgb(14, 45,65 );
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 10px;
+}
+
+
+
+.Imagen1 img{
+    border-radius: 70%;
+    height: 87px;
+    width: 90px;
+    cursor: pointer;
+    transition: all 0.34s;
+}
+.Imagen1 img:hover{  
+    transform: scale(1.2);
+}
+
+
+
+/* .header nav ul li a:link{
+    color: black;
+} */
+
+
+.header nav ul li a:visited{
+    color: white;   
+}
+
+.header nav ul li a:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.Imagen1,nav,ul{
+    list-style-type: none;
+}
+
+.header nav ul li{
+    display: inline-block;
+    padding: 0px 32px;  
+}
+
+.header nav ul li a{
+    color: wheat ;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+/* Comentario */
+h3{
+    color: red;
+}

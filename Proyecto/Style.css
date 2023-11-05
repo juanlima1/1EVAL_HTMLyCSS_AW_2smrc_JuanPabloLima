@@ -12,7 +12,7 @@ h1{
 }
 
 nav{
-    background-color: blueviolet;
+    background-color: #1b3039;
     height: 85px;
     margin: 0px;
     border: 1px solid red;
@@ -29,4 +29,10 @@ nav{
 
 ul{
     list-style-type: none;
+}
+
+textarea{
+    min-height: 36px;
+    width: 250px;
+    resize: none;
 }
