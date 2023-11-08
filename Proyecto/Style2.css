@@ -86,25 +86,74 @@ body{
 
 /* Formulario */
 
-.Formulario{
-    padding: 10px 0px 30px 0px;
-    background: rgb(51, 153, 139);
+section{
+    width: 430px;
+    background-color: brown;
+    padding-top: 40px;
+    border-radius: 5%;
+    color: rgb(8, 1, );
+    margin: auto;
+    margin-top: 40px;
+    padding: 30px;
+    display: flexbox;
+    
+}
+
+h3{
     text-align: center;
 }
+.controls{
+    background: wheat;
+    width: 100%;
+}
 
+section .we{
+    color: rgb(87, 3, 3);
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+    
+}
 
-.Formulario div{
-    background:red
+section .re{
+    color: rgb(0, 17, 255);
+    padding: 0%;
+    margin: 0%;
+    display: inline;
+}
+
+section .boton{
+    margin-left: 20px;
 }
 
 
 
+section .controls{
+    margin-top: 17px;
+    height: 30px;
+    width: 420px;
+    color: red;
+    background: black;
+    text-align: center;
+}
+section .controls:hover{
+    background-color: red;
+    color: black;
+}
 
+.putin{
+    width:150px;
+    height:190px;
+    margin-left: 1000px;
+    margin-right: 100px;
+    padding: 0px;
+}
+
+.jhon{
+    width:150px;
+    height:190px;
+    margin-right: 30px;
+}
 /* Fin-Formulario */
 
 
-
-
-/* Tablas */
-
-/* Fin-Tablas */
