@@ -19,7 +19,7 @@ body{
     height: 74px;
     width: 80px;
     cursor: pointer;
-    transition: all 0.35s;0
+    transition: all 0.35s;
 }
 .Imagen1 img:hover{  
     transform: scale(1.2);
@@ -127,6 +127,6 @@ form .re{
 }
 
 form .controls:hover{
-    background-color: red;
-    color: black;
+    background-color: navajowhite;
+    color: white;
 }
