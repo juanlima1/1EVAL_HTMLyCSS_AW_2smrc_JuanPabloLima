@@ -4,7 +4,7 @@ body{
 }
 
 .header{
-    background: rgb(14, 45,65 );
+    background: linear-gradient(to right, #2d22cc, rgb(14, 45,65 ));
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +19,7 @@ body{
     height: 74px;
     width: 80px;
     cursor: pointer;
-    transition: all 0.35s;
+    transition: all 0.35s;0
 }
 .Imagen1 img:hover{  
     transform: scale(1.2);
@@ -86,8 +86,7 @@ body{
 /* Fin-Boton */
 
 /* Formulario */
-
-section{
+form{
     width: 430px;
     background-color: brown;
     border-radius: 8%;
@@ -101,9 +100,15 @@ h3{
     text-align: center;
     color: bisque;
 }
+
 .controls{
-    background: wheat;
     width: 100%;
+    margin-top: 17px;
+    height: 30px;
+    width: 420px;
+    color: red;
+    background: black;
+    text-align: center;
 }
 
 section .we{
@@ -121,23 +126,7 @@ section .re{
     display: inline;
 }
 
-section .boton{
-    margin-left: 20px;
-}
-
-section .controls{
-    margin-top: 17px;
-    height: 30px;
-    width: 420px;
-    color: red;
-    background: black;
-    text-align: center;
-}
 section .controls:hover{
     background-color: red;
     color: black;
 }
-
-/* Fin-Formulario */
-
-
